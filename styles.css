@@ -1,3 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F5E5BD;
+}
+
+.logo-top {
+    text-align: center;
+    padding: 32px;
+    margin: auto;
+}
+
+#landing-block {
+    height: 90vh;
+    width: 100vw;
+    background-color: #677D0F;
+    position: relative;
+}
+
 h1 {
     color: #F5E5BD;
     font-family: "Owners XBlack", sans-serif;
@@ -6,4 +25,22 @@ h1 {
     text-align: center;
     text-transform: uppercase;
     line-height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h4 {
+    color: #F5E5BD;
+    font-family: "Epilogue", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: auto;
+    padding: 32px;
 }
