@@ -46,8 +46,14 @@ body {
 }
 #recipe-columns {
     display: flex;
+    gap: 37px;
+    margin-left: 82px;
+    margin-right: 82px;
+    margin-top: 49px;
 }
-
+.col {
+    flex-basis: 100%;
+}
 h3 {
     color: #4B3407;
     font-family: "Owners XBlack", sans-serif;
@@ -57,16 +63,10 @@ h3 {
     text-align: left;
     text-transform: uppercase;
 }
-
-#recipe-columns h3 {
-    
-}
-
-.col {
-    flex-basis: 100%;
-}
-
 .col-image img {
     height: 301px;
     width: 401px;
+}
+a {
+    text-decoration: none;
 }
