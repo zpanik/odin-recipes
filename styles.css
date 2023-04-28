@@ -44,3 +44,29 @@ body {
     margin: auto;
     padding: 32px;
 }
+#recipe-columns {
+    display: flex;
+}
+
+h3 {
+    color: #4B3407;
+    font-family: "Owners XBlack", sans-serif;
+    font-weight: 1000;
+    font-size: 26px;
+    line-height: 90%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+#recipe-columns h3 {
+    
+}
+
+.col {
+    flex-basis: 100%;
+}
+
+.col-image img {
+    height: 301px;
+    width: 401px;
+}
