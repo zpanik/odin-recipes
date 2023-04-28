@@ -22,10 +22,11 @@ body {
     text-transform: uppercase;
     line-height: 90%;
 }
-.h1#landing-block {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#landing-block .h1 {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
 }
 .h4 {
     color: #F5E5BD;
@@ -35,7 +36,7 @@ body {
     text-align: center;
     text-transform: uppercase;
 }
-.h4#landing-block {
+#landing-block .h4 {
     position: absolute;
     bottom: 0;
     left: 50%;
