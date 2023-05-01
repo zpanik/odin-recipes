@@ -119,6 +119,7 @@ p {
 .col .primary-button {
     margin-top: 14px;
 }
+/* KEYFRAMES */
 @keyframes fade-down-header {
     0% {
       opacity: 0%;
@@ -129,9 +130,6 @@ p {
       opacity: 1;
       transform: translateY(-50%) scale(1);
     }
-
-/* KEYFRAMES */
-
 }
 @keyframes fade-up-h4 {
     0% {
