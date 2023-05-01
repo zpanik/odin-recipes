@@ -7,6 +7,7 @@ body {
 .logo-top {
     text-align: center;
     padding: 32px;
+    animation: fade-down-logo-top 1s;
 }
 #landing-block {
     height: 90vh;
@@ -28,6 +29,7 @@ body {
     top: 50%;
     width: 100%;
     transform: translateY(-50%);
+    animation: fade-down-header 1s;
 }
 .h4 {
     color: #F5E5BD;
@@ -44,6 +46,7 @@ body {
     transform: translateX(-50%);
     margin: auto;
     padding: 32px;
+    animation: fade-up-h4 1s;
 }
 #recipe-columns {
     display: flex;
@@ -115,4 +118,40 @@ p {
 }
 .col .primary-button {
     margin-top: 14px;
+}
+@keyframes fade-down-header {
+    0% {
+      opacity: 0%;
+      transform: translateY(-60%) scale(0.9);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(-50%) scale(1);
+    }
+
+/* KEYFRAMES */
+
+}
+@keyframes fade-up-h4 {
+    0% {
+      opacity: 0%;
+      transform: translateY(20%) translateX(-50%) scale(0.9);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0px) translateX(-50%) scale(1);
+    }
+}
+@keyframes fade-down-logo-top {
+    0% {
+      opacity: 0%;
+      transform: translateY(-20%) scale(0.9);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0px) scale(1);
+    }
 }
