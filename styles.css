@@ -108,6 +108,9 @@ p {
 .primary-button:hover {
     color: #F5E5BD;
     background-color: #677D0F;
+    cursor: pointer;
+}
+.col .primary-button:hover {
     cursor: url('images/eye-cursor.svg'), auto;
 }
 .col .primary-button {
