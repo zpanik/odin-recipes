@@ -2,7 +2,6 @@ body {
     padding: 0;
     margin: 0;
     background-color: #F5E5BD;
-    position: relative;
 }
 
 /* TEXT STYLES */
@@ -89,12 +88,11 @@ a {
     display: flex;
     gap: 37px;
     margin-top: 49px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;
 }
 .col {
     flex-basis: 100%;
+    max-width: 401px;
 }
 .col h3 {
     margin-top: 34px;
@@ -120,11 +118,11 @@ a {
     font-size: 16px;
     line-height: 90%;
     text-align: left;
-    position: absolute;
     padding: 15px 24px;
     border: 2px solid #677D0F;
     background-color: #F5E5BD;
     transition: 0.2s;
+    width: fit-content;
 }
 .primary-button:hover {
     color: #F5E5BD;
@@ -145,6 +143,7 @@ a {
     padding: 24px 0px;
     width: 100vw;
     max-width: 100%;
+    margin-top: 49px;
 }
 .footer h5 {
     color: #F5E5BD;
