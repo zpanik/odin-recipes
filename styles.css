@@ -1,9 +1,8 @@
 body {
     padding: 0;
-    margin: 0 auto;
+    margin: 0;
     background-color: #F5E5BD;
     position: relative;
-    overflow-x: hidden;
 }
 .logo-top {
     text-align: center;
@@ -13,6 +12,7 @@ body {
 #landing-block {
     height: 90vh;
     width: 100vw;
+    max-width: 100%;
     background-color: #677D0F;
     position: relative;
 }
@@ -123,10 +123,11 @@ p {
     margin-top: 14px;
 }
 .footer-wrapper {
+    position: relative;
     background-color: #4B3407;
     height: 67px;
     width: 100vw;
-    position: relative;
+    max-width: 100%;
 }
 h5 {
     font-family: "Epilogue", sans-serif;
@@ -134,12 +135,12 @@ h5 {
     font-size: 16px;
     line-height: 90%;
 }
-.footer-contents h5 {
+.footer h5 {
     color: #F5E5BD;
     margin: 0px;
 }
-.footer-contents {
-    max-width: 1227px;
+.footer {
+    max-width: 1277px;
     margin: 0 auto;
 }
 /* KEYFRAMES */
