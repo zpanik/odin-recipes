@@ -18,8 +18,8 @@ body {
 }
 .h1 {
     color: #F5E5BD;
-    font-family: "Owners XBlack", sans-serif;
-    font-weight: 1000;
+    font-family: "owners", sans-serif;
+    font-weight: 900;
     font-size: 172px;
     text-align: center;
     text-transform: uppercase;
@@ -62,8 +62,8 @@ body {
 }
 h3 {
     color: #4B3407;
-    font-family: "Owners XBlack", sans-serif;
-    font-weight: 1000;
+    font-family: "owners", sans-serif;
+    font-weight: 900;
     font-size: 26px;
     line-height: 90%;
     text-align: left;
