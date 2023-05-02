@@ -122,7 +122,7 @@ p {
 .col .primary-button {
     margin-top: 14px;
 }
-.footer-wrapper {
+#footer-wrapper {
     position: relative;
     background-color: #4B3407;
     padding: 24px 0px;
@@ -149,7 +149,6 @@ h5 {
     gap: 30px;
     align-items: center;
 }
-
 
 
 
