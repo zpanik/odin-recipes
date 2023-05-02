@@ -4,6 +4,57 @@ body {
     background-color: #F5E5BD;
     position: relative;
 }
+
+/* TEXT STYLES */
+
+.h1 {
+    color: #F5E5BD;
+    font-family: "owners", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 172px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 90%;
+}
+h3 {
+    color: #4B3407;
+    font-family: "owners", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 90%;
+    text-align: left;
+    text-transform: uppercase;
+}
+.h4 {
+    color: #F5E5BD;
+    font-family: "Epilogue", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+h5 {
+    font-family: "Epilogue", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 90%;
+}
+p {
+    color: #524B41;
+    font-family: "Epilogue", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+}
+a {
+    text-decoration: none;
+}
+
+
+/* LANDING BLOCK */
+
 .logo-top {
     text-align: center;
     padding: 32px 0px;
@@ -16,30 +67,12 @@ body {
     background-color: #677D0F;
     position: relative;
 }
-.h1 {
-    color: #F5E5BD;
-    font-family: "owners", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-    font-size: 172px;
-    text-align: center;
-    text-transform: uppercase;
-    line-height: 90%;
-}
 #landing-block .h1 {
     position: absolute;
     top: 50%;
     width: 100%;
     transform: translateY(-50%);
     animation: fade-down-header 1s;
-}
-.h4 {
-    color: #F5E5BD;
-    font-family: "Epilogue", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    text-align: center;
-    text-transform: uppercase;
 }
 #landing-block .h4 {
     position: absolute;
@@ -50,6 +83,9 @@ body {
     padding: 32px;
     animation: fade-up-h4 1s;
 }
+
+/* RECIPE COLUMNS */
+
 #recipe-columns {
     display: flex;
     gap: 37px;
@@ -61,16 +97,6 @@ body {
 .col {
     flex-basis: 100%;
 }
-h3 {
-    color: #4B3407;
-    font-family: "owners", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-    font-size: 26px;
-    line-height: 90%;
-    text-align: left;
-    text-transform: uppercase;
-}
 .col h3 {
     margin-top: 34px;
     margin-bottom: 0px;
@@ -79,16 +105,6 @@ h3 {
     height: 301px;
     width: 401px;
     display: block;
-}
-a {
-    text-decoration: none;
-}
-p {
-    color: #524B41;
-    font-family: "Epilogue", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 130%;
 }
 .col p {
     overflow: hidden;
@@ -122,18 +138,14 @@ p {
 .col .primary-button {
     margin-top: 14px;
 }
+
+/* FOOTER */
+
 #footer-wrapper {
-    position: relative;
     background-color: #4B3407;
     padding: 24px 0px;
     width: 100vw;
     max-width: 100%;
-}
-h5 {
-    font-family: "Epilogue", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 90%;
 }
 .footer h5 {
     color: #F5E5BD;
@@ -149,8 +161,6 @@ h5 {
     gap: 30px;
     align-items: center;
 }
-
-
 
 /* KEYFRAMES */
 
