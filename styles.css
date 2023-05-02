@@ -20,6 +20,7 @@ body {
     color: #F5E5BD;
     font-family: "owners", sans-serif;
     font-weight: 900;
+    font-style: normal;
     font-size: 172px;
     text-align: center;
     text-transform: uppercase;
@@ -64,6 +65,7 @@ h3 {
     color: #4B3407;
     font-family: "owners", sans-serif;
     font-weight: 900;
+    font-style: normal;
     font-size: 26px;
     line-height: 90%;
     text-align: left;
