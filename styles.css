@@ -6,7 +6,7 @@ body {
 }
 .logo-top {
     text-align: center;
-    padding: 32px;
+    padding: 32px 0px;
     animation: fade-down-logo-top 1s;
 }
 #landing-block {
@@ -125,7 +125,7 @@ p {
 .footer-wrapper {
     position: relative;
     background-color: #4B3407;
-    height: 67px;
+    padding: 24px 0px;
     width: 100vw;
     max-width: 100%;
 }
@@ -139,11 +139,22 @@ h5 {
     color: #F5E5BD;
     margin: 0px;
 }
+.footer img {
+    display: block;
+}
 .footer {
     max-width: 1277px;
     margin: 0 auto;
+    display: flex;
+    gap: 30px;
+    align-items: center;
 }
+
+
+
+
 /* KEYFRAMES */
+
 @keyframes fade-down-header {
     0% {
       opacity: 0%;
