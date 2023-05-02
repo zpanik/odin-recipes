@@ -85,10 +85,12 @@ a {
 /* RECIPE COLUMNS */
 
 #recipe-columns {
+    position: relative;
+    max-width: 1277px;
+    margin: auto;
+    margin-top: 49px;
     display: flex;
     gap: 37px;
-    margin-top: 49px;
-    position: relative;
 }
 .col {
     flex-basis: 100%;
