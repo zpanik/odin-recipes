@@ -3,6 +3,7 @@ body {
     margin: 0 auto;
     background-color: #F5E5BD;
     position: relative;
+    overflow-x: hidden;
 }
 .logo-top {
     text-align: center;
