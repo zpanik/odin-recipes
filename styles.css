@@ -122,6 +122,26 @@ p {
 .col .primary-button {
     margin-top: 14px;
 }
+.footer-wrapper {
+    background-color: #4B3407;
+    height: 67px;
+    width: 100vw;
+    position: relative;
+}
+h5 {
+    font-family: "Epilogue", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 90%;
+}
+.footer-contents h5 {
+    color: #F5E5BD;
+    margin: 0px;
+}
+.footer-contents {
+    max-width: 1227px;
+    margin: 0 auto;
+}
 /* KEYFRAMES */
 @keyframes fade-down-header {
     0% {
