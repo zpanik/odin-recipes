@@ -160,6 +160,12 @@ a {
     display: flex;
     gap: 30px;
     align-items: center;
+    justify-content: space-between;
+}
+.foot-col{
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
 
 /* KEYFRAMES */
