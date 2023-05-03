@@ -167,6 +167,10 @@ a {
     align-items: center;
     gap: 30px;
 }
+a .footer-element:hover{
+    opacity: 0.75;
+    transition: 0.2s;
+}
 
 /* KEYFRAMES */
 
