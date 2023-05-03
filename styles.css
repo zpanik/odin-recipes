@@ -83,10 +83,10 @@ a {
     margin: auto;
     padding: 32px;
     animation: fade-up-h4 1s;
+    transition: 0.2s;
 }
 #landing-block .h4:hover {
     transform: translateX(-50%) scale(110%);
-    transition: 0.2s;
 }
 
 /* RECIPE COLUMNS */
