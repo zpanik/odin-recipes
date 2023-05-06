@@ -197,6 +197,12 @@ a .footer-element:hover{
     opacity: 0.75;
     transition: 0.2s;
 }
+.footer .active h5{
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #677D0F;
+}
 
 /* HOMEPAGE KEYFRAMES */
 
