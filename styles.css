@@ -235,7 +235,7 @@ a .footer-element:hover{
 #recipe-top .logo-top{
     text-align: center;
     padding: 32px;
-    animation: fade-down-logo-top 1s;
+    animation: fade-down-recipe-logo 1s;
 }
 #recipe-top h2{
     margin-top: 2px;
@@ -253,13 +253,24 @@ a .footer-element:hover{
 }
 @keyframes fade-down-h2{
     0% {
-        opacity: 40%;
+        opacity: 70%;
         transform: translateY(5%)
       }
   
       100% {
         opacity: 1;
         transform: translateY(0%)
+      }
+}
+@keyframes fade-down-recipe-logo{
+    0% {
+        opacity: 70%;
+        transform: translateY(-5%) scale(0.9);
+      }
+  
+      100% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
       }
 }
 
@@ -285,12 +296,18 @@ ul{
     padding: 0px 17px;
     list-style-image: url('../images/bullet.svg');
 }
+ul li{
+    margin-bottom: 6px;
+}
 ol{
-    margin: 0px;
+    margin-bottom: 0px;
     padding: 0px 17px;
     color: #524B41;
     font-family: "Epilogue", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 130%;
+}
+ol li{
+    margin-bottom: 8px;
 }
