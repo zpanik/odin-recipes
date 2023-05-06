@@ -163,7 +163,7 @@ a {
     padding: 24px 0px;
     width: 100vw;
     max-width: 100%;
-    margin-top: 49px;
+    margin-top: 50px;
 }
 .footer h5 {
     color: #F5E5BD;
@@ -230,7 +230,7 @@ a .footer-element:hover{
 
 #recipe-top{
     font-size: 0px;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 }
 #recipe-top .logo-top{
     text-align: center;
@@ -247,16 +247,12 @@ a .footer-element:hover{
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+    display: block;
 }
 
 /* RECIPE CONTENT */
 
 #recipe-content{
     max-width: 620px;
-    position: relative;
-    left: 50%;
-    top: 25px;
-    bottom: 50px;
-    transform: translateX(-50%);
+    margin: 0 auto;
 }
-
