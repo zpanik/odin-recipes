@@ -64,9 +64,9 @@ a {
     text-decoration: none;
 }
 
-/* LANDING BLOCK */
+/* HOMEPAGE LANDING BLOCK */
 
-.logo-top {
+#landing-block .logo-top {
     text-align: center;
     padding: 32px 0px;
     animation: fade-down-logo-top 1s;
@@ -190,7 +190,7 @@ a .footer-element:hover{
     transition: 0.2s;
 }
 
-/* KEYFRAMES */
+/* HOMEPAGE KEYFRAMES */
 
 @keyframes fade-down-header {
     0% {
@@ -225,3 +225,29 @@ a .footer-element:hover{
       transform: translateY(0px) scale(1);
     }
 }
+
+/* RECIPE TOP */
+
+#recipe-top{
+    font-size: 0px;
+    margin-bottom: 25px;
+}
+#recipe-top .logo-top{
+    text-align: center;
+    padding: 32px;
+}
+#recipe-top h2{
+    margin-top: 2px;
+    margin-bottom: 34px;
+    padding: 0px;
+}
+#recipe-top .recipe-hero img{
+    width: 1276px;
+    height: 465px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* RECIPE TEXT */
+
