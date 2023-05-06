@@ -53,6 +53,14 @@ h5 {
     font-size: 16px;
     line-height: 90%;
 }
+h6{
+    color: #524B41;
+    font-family: "Epilogue", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    margin: 0px;
+}
 p {
     color: #524B41;
     font-family: "Epilogue", sans-serif;
@@ -250,11 +258,12 @@ a .footer-element:hover{
     left: 50%;
     transform: translateX(-50%);
     display: block;
+    animation: hero-fade-in 1s;
 }
 @keyframes fade-down-h2{
     0% {
-        opacity: 70%;
-        transform: translateY(5%)
+        opacity: 80%;
+        transform: translateY(2.5%)
       }
   
       100% {
@@ -265,12 +274,21 @@ a .footer-element:hover{
 @keyframes fade-down-recipe-logo{
     0% {
         opacity: 70%;
-        transform: translateY(-5%) scale(0.9);
+        transform: translateY(-5%) scale(0.95);
       }
   
       100% {
         opacity: 1;
         transform: translateY(0px) scale(1);
+      }
+}
+@keyframes hero-fade-in{
+    0% {
+        opacity: 70%;
+      }
+  
+      100% {
+        opacity: 1;
       }
 }
 
@@ -281,7 +299,7 @@ a .footer-element:hover{
     margin: 0 auto;
 }
 .recipe-section{
-    margin: 42px;
+    margin: 24px;
 }
 #recipe-content p{
     margin: 0px;
@@ -309,5 +327,8 @@ ol{
     line-height: 130%;
 }
 ol li{
-    margin-bottom: 8px;
+    margin-bottom: 10px;
+}
+ol h6{
+    margin-bottom: 4px;
 }
