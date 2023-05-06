@@ -249,5 +249,14 @@ a .footer-element:hover{
     transform: translateX(-50%);
 }
 
-/* RECIPE TEXT */
+/* RECIPE CONTENT */
+
+#recipe-content{
+    max-width: 620px;
+    position: relative;
+    left: 50%;
+    top: 25px;
+    bottom: 50px;
+    transform: translateX(-50%);
+}
 
