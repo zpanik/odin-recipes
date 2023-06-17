@@ -130,6 +130,12 @@ a {
     width: 401px;
     display: block;
     border-radius: 0px;
+    box-sizing: border-box;
+    transition: 0.2s;
+    border: 0px solid #F5E5BD;
+}
+.col-image img:hover{
+    border: 10px solid #F5E5BD;
 }
 .col p {
     overflow: hidden;
